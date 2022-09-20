@@ -140,6 +140,10 @@ GEM
     nokogiri (1.13.8)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
+    nokogiri (1.13.8-aarch64-linux)
+      racc (~> 1.4)
+    nokogiri (1.13.8-x86_64-linux)
+      racc (~> 1.4)
     pg (1.4.3)
     public_suffix (5.0.0)
     puma (5.6.5)
@@ -239,7 +243,9 @@ GEM
     zeitwerk (2.6.0)
 
 PLATFORMS
+  aarch64-linux-musl
   ruby
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
@@ -266,4 +272,4 @@ RUBY VERSION
    ruby 3.1.2p20
 
 BUNDLED WITH
-   2.3.19
+   2.3.7
