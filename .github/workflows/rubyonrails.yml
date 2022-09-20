@@ -33,6 +33,12 @@ jobs:
         with:
           bundler-cache: true
 
+      - name: out of curiocity
+        run: echo $PATH
+
+      - name: out of curiocity 2
+        run: which rails
+
       # Add or replace database setup steps here
       - name: Set up database schema
         run: rails db:prepare
